@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('static/img/bgc2.jpg'); /* Updated image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        
+        h1 {
+            font-family: 'Brush Script', cursive;
+            font-size: 4em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .main-button.icon-button {
+            display: inline-block;
+            padding: 15px 30px; /* Adjusted padding for better size */
+            margin-top: 20px;
+            color: white;
+            background: linear-gradient(45deg, #9e069e,  #eb73eb); /* Gradient background */
+            border: none;
+            border-radius: 30px; /* Slightly rounded corners */
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+        .main-button.icon-button:hover {
+            background: linear-gradient(45deg, #eb73eb, #9e069e); /* Inverse gradient on hover */
+            transform: scale(1.1);
+        }
+        .main-button.icon-button:focus {
+            outline: none;
+        }
+        
+        footer#footer {
+            position: absolute;
+            bottom: 20px; /* Adjusted to 20px from the bottom */
+            width: 100%;
+            text-align: center;
+            border: none; /* Removed border */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You!</h1>
+        <p>Your insights and suggestions help us improve and serve you better.</p>
+        <a class="main-button icon-button" href="start.html">Home</a>
+    </div>
+
+    <footer id="footer" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- footer logo -->
+                <div class="col-md-12 text-center"> <!-- Changed to col-md-12 and added text-center class -->
+                    <div class="footer-logo">
+                        <a class="logo" style="font-size: 30px;" href="start.html">EduTrack</a>
+                    </div>
+                </div>
+                <!-- /footer logo -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- preloader -->
+    <div id='preloader'>
+        <div class='preloader'></div>
+    </div>
+    <!-- /preloader -->
+
+    <!-- jQuery Plugins -->
+    
+    
+    
+
+</body>
+
+</html>
